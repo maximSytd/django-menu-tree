@@ -2,14 +2,9 @@
 ## Description
 Implement django app that will implement the tree menu
 
-### examples:
-![screenshot 1](docs/screenshots/screen1.png)
-
-![screenshot 2](docs/screenshots/screen2.png)
-
 ## 🚀 Project Setup Guide (local)
 
-This guide will help you set up and run the Django project using the [uv](https://docs.astral.sh/uv/getting-started/installation/) Python package manager and Docker for services like PostgreSQL.
+This guide will help you set up and run the Django project using the [uv](https://docs.astral.sh/uv/getting-started/installation/) Python package manager.
 
 ---
 
@@ -17,13 +12,12 @@ This guide will help you set up and run the Django project using the [uv](https:
 
 - [Python](https://www.python.org/) (3.11+ recommended)
 - [uv](https://docs.astral.sh/uv/getting-started/installation/)
-- [Docker](https://www.docker.com/) & Docker Compose
 
 
 ### 1. clone repo and get dependencies
 ```bash
-git clone https://github.com/maximSytd/django-cash-flow.git
-cd django-cash-flow
+git clone https://github.com/maximSytd/django-menu-tree.git
+cd django-menu-tree
 uv sync
 ```
 
