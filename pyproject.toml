@@ -1,0 +1,12 @@
+[project]
+name = "django-menu-tree"
+version = "1.0.0"
+description = "Test task"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=5.2.2",
+
+    # library to load env values
+    "dotenv>=0.9.9",
+]
