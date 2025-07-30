@@ -41,7 +41,7 @@ DJANGO_SECRET="your-django-secret-key"
 python manage.py migrate
 ```
 
-### 4.2 Create admin user (optional)
+### 4.2 Create admin user
 ```bash
 python manage.py createsuperuser
 ```
