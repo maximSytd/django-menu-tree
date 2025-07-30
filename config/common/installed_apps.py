@@ -10,8 +10,6 @@ INSTALLED_APPS = (
 )
 
 THIRD_PARTY = (
-    "django_extensions",
-    "debug_toolbar",
 )
 
 LOCAL_APPS = (
