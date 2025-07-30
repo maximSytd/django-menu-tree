@@ -1,12 +1,9 @@
 # Test task:
-## Description
 Implement django app that will implement the tree menu
 
 ## 🚀 Project Setup Guide (local)
 
 This guide will help you set up and run the Django project using the [uv](https://docs.astral.sh/uv/getting-started/installation/) Python package manager.
-
----
 
 ### ✅ Prerequisites
 
