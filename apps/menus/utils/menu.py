@@ -1,6 +1,7 @@
 import typing
 
 from django.db.models import QuerySet
+from django.utils.html import escape
 
 from ..models import MenuItem
 
@@ -32,7 +33,7 @@ def render_menu_html(
     tree: MenuTree,
     current_path: str,
     level: int = 0,
-    active_path: None | str = None,
+    active_path: None | set[int] = None,
 ) -> str:
     """Return html ul tag of menu tree."""
     html = "<ul>"
@@ -54,7 +55,7 @@ def render_menu_html(
 
         css_class = "active" if is_active else ""
         html += (
-            f"<li class='{css_class}'><a href='{url}'>{item.title}</a>"
+            f"<li class='{css_class}'><a href='{url}'>{escape(item.title)}</a>"
             f"{children_html}</li>"
         )
     html += "</ul>"
