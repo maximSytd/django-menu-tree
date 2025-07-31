@@ -9,7 +9,7 @@ from ..models import MenuItem
 MenuTree: typing.TypeAlias = list["MenuNode"]
 
 class MenuNode(typing.TypedDict):
-    """Represent typed dict of menu node that contains MenuItem's."""
+    """Represent typed dict of menu node that contains MenuItems."""
 
     item: MenuItem
     children: list["MenuNode"]
