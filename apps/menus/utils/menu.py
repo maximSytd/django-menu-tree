@@ -12,7 +12,7 @@ class MenuNode(typing.TypedDict):
     """Represent typed dict of menu node that contains MenuItems."""
 
     item: MenuItem
-    children: list["MenuNode"]
+    children: list["MenuNode"] | list
 
 
 def build_menu_tree(items: QuerySet[MenuItem]) -> MenuTree:
